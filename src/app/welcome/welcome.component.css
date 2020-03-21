@@ -1,0 +1,29 @@
+h1 {
+    font-size: 4vw;
+    text-align: center
+}
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+img {
+    max-width: 30vw;
+    margin-bottom: 0.67em;
+}
+section {
+    font-size: 2vw;
+    text-align: justify;
+}
+button {
+    float: right;
+    padding: 5px 5px;
+    margin: 0 1vw 2vh;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+button:hover {
+    transform: translate(1px, 1px);
+}

@@ -1,0 +1,9 @@
+<h1>Here is cookbook where you can read and add recipes</h1>
+
+<a routerLink='/new'>
+  <button class="addNewBtn">Add new recipe</button>
+</a>
+<h3>List of recipes</h3>
+<app-recipe
+  *ngFor="let recipe of recipes"
+  [recipeElement] = "recipe"></app-recipe>

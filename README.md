@@ -1,5 +1,11 @@
 # CookBook
 
+This is a simple Front End part of an app that allows you to save, update and view previous recipes.
+Here is link for [Back End](https://github.com/OMatiykiv/cookBook-BE) part of this app.
+Here is link to [server](https://simple-cookbook-app.herokuapp.com) on which the BE part is running 
+
+#Project
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
 ## Development server

@@ -1,0 +1,34 @@
+h2 {
+    font-size: 3vw;
+    text-align: center;
+}
+.recipe {
+    padding: 0 0 5vh 0;
+    border-bottom: .5px solid #777;
+}
+h4 {
+    font-size: 2vw;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+}
+.info p {
+    padding: 1vh 2vw;
+    margin: 0;
+}
+.info p:first-child {
+    padding-left: 0;
+}
+button {
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 40px;
+    padding: 15px 25px;
+    width: 100%;
+    margin-top: 2vh;
+}
+button:hover {
+    transform: translate(2px, 2px);
+}

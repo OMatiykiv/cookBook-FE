@@ -1,0 +1,16 @@
+<h2>List of previous versions of the {{recipes[0]['name']}}</h2>
+<div *ngFor="let recipe of recipes" class="recipe">
+  <h4>{{recipe['name']}}</h4>
+  <div class="info">
+    <div>
+      <p><b>Author: </b>{{recipe['author']}}</p>
+    </div>
+    <div>
+      <p><b>Published: </b>{{recipe['published']}}</p>
+    </div>
+  </div>
+  <p>{{recipe['description']}}</p>
+</div>
+<a routerLink='/list'>
+  <button class="listBtn">Return to list of recipes</button>
+</a>
